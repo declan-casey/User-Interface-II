@@ -1,1 +1,128 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: ;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+body{
+    background white;
+    font-size: 10px;
+}
+
+#head{
+    align-content:center;
+    text-align: center;
+    font-size: 1.5rem;
+    align-items: center;
+    margin: 4%;
+}
+
+h1{
+    margin:1%;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center; 
+    position:fixed;
+    width:92%;
+    margin-bottom:1%;
+
+}
+
+.navbar a{
+    color: darkslategray;
+    font-family: serif;
+    border:black solid 2px;
+    padding:.25rem;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 5%;
+}
+
+.navbar a:hover{
+    background: black;
+    color: white;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family:Comic Sans MS ;
+    margin:2.7rem;
+}
+
+#head p{
+    flex-shrink: inherit;
+    margin-left:3rem;
+    margin-right:3rem;
+    line-height: 1.5;
+}
+
+.hero{
+    background-image: url("https://images.unsplash.com/photo-1603888614264-1130819e9a64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" );
+    padding:20rem;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+}
+
+.images{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images img{
+    height: 30rem;
+    margin: 2rem;
+}
+
+.images p{
+    font-size: 1.5rem;
+    background: darkkhaki;
+    line-height: 1.5;
+    padding-top: 6rem;
+    padding-bottom: 17rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+
+}
+
+button{
+    padding:1.5rem;
+    border-radius: 50%;
+    text-align: center;
+    color: darkslategray;
+    
+}
+
+button:hover{
+    background: bisque;
+    color:rgb(0, 0, 0);
+}
+
+footer{
+    display:flex;
+    justify-content: center;
+    background: coral;
+    padding:1.5rem;
+}
